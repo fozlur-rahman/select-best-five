@@ -4,7 +4,7 @@ document.getElementById('player-btn').addEventListener('click', function () {
     if (playerInput.value == '') {
         return alert('Give the input first !');
     } else {
-        const playerQuant = document.getElementById('players-list').childNodes.length - 1;
+        const playerQuant = document.getElementById('players-list').childNodes.length;
         // console.log(playerQuant);
         const playerCost = playerInputText * playerQuant;
         const playerTotalCost = document.getElementById('player-total-cost').innerText = playerCost;

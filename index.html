@@ -23,7 +23,7 @@
                 Select Best Five Players.
             </h1>
             <hr>
-            <p class="pt-3 pb-5 text-white-50">
+            <p class="pt-3 pb-5  text-white-50">
                 FC Bayern Munich was founded by members of a Munich gymnastics club
                 (MTV 1879). When a congregation of members of MTV 1879 decided on 27
                 February 1900 that the footballers of the club would not be allowed to
@@ -158,7 +158,7 @@
                             Calculate
                         </button>
                         <p>
-                            Player Expenses<span class="ms-3">$<span id="player-total-cost">00</span></span>
+                            Player Expenses : $ <span id="player-total-cost" class="text-danger fw-bold">00</span>
                         </p>
                     </div>
                     <div class="d-flex flex-column ps-5">
@@ -176,14 +176,13 @@
                             <input id="couch-cost" class="w-50  py-1 text-white bg-black  border px-2"
                                 placeholder="$000" type="text" name="" />
                         </div>
-                        <button id="total-btn" type="submit" class="btn text-light  mb-3 w-75">
+                        <button id="total-btn" type="submit" class="btn text-light   w-75">
                             Calculate
                         </button>
-                        <div class="d-flex justify-content-between w-75">
-                            <p>Total</p>
-                            <p>
-                                <span class="text-danger">$ <span id="total-amount">00</span></span>
-                            </p>
+                        <hr class="w-75 mb-0 ms-0">
+                        <div class=" text-end justify-content-between w-75 pt-0">
+                            <p class="pe-2">Total : $ <span id="total-amount" class="text-danger fw-bold ps-5">00</span></p>
+                            
                         </div>
                     </div>
                 </div>
