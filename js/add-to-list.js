@@ -1,4 +1,5 @@
 const players = [];
+// add player in list item with create element funtion 
 function displayPlayers(addPlayers) {
     const playersList = document.getElementById('players-list');
     playersList.innerText = "";
@@ -15,9 +16,8 @@ function displayPlayers(addPlayers) {
     }
 
 }
-// document.getElementById('add-btn-1')('click', function () {
 
-// })
+// addEventListener for all card btn funtion
 function addToList(element) {
     const player = element.parentNode.children[0].innerText;
     const playerDetails = {
