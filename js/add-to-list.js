@@ -7,22 +7,14 @@ function displayPlayers(addPlayers) {
         li.innerText = name;
         console.log(name)
         playersList.appendChild(li);
-
     }
-    // const playerQuant = addPlayers.length;
-
+    if (addPlayers.length >= 5) {
+        return alert('Already Five selected');
+    }
 }
-// document.querySelector().addEventListener('click', function () {
-//     const addbtn = document.getElementById('add-btn');
-//     addbtn.style.backgroundColor = 'gray'
-//     addbtn.disabled = true;
+// document.getElementById('add-btn-1')('click', function () {
+    
 // })
-function disableButton(element) {
-    const addbtn = document.querySelector('.add-btn');
-    addbtn.style.backgroundColor = 'gray'
-    addbtn.disabled = true;
-}
-
 function addToList(element) {
     const player = element.parentNode.children[0].innerText;
     const playerDetails = {
@@ -30,6 +22,6 @@ function addToList(element) {
     }
     players.push(playerDetails);
     displayPlayers(players);
-    disableButton(element)
+    element.disabled = true;    
 }
 
