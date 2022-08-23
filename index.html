@@ -13,13 +13,13 @@
     <title>FC Bayern Munich</title>
 </head>
 
-<body class="bg-dark  -4 -light">
+<body class="bg-dark">
 
     <!-- header section start -->
     <header class="bg-black d-flex justify-content-evenly align-items-center py-5">
 
         <div class="text-center w-50 mx-auto">
-            <h1 class="text-center fw-bold text-warning mt-5">
+            <h1 class="text-center fw-bold text-warning mt-5 header-title">
                 Select Best Five Players.
             </h1>
             <p class="pt-3 pb-5 text-white">
@@ -39,7 +39,7 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="card text-white-50 shadow h-100 text-center bg-black ">
-                        <img src="images/sadio_mane.png" class="card-img-top" alt="..." />
+                        <img src="images/sadio_mane.png" class="card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Sadio Mane</h5>
                             <p class="card-text">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card text-white-50 shadow h-100 text-center bg-black ">
-                        <img src="images/alphonso_davies.png" class="card-img-top" alt="..." />
+                        <img src="images/alphonso_davies.png" class="card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold ">Alphonso Davies</h5>
                             <p class="card-text">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card text-white-50 shadow h-100 text-center bg-black">
-                        <img src="images/benjamin_pavard.png" class="card-img-top" alt="..." />
+                        <img src="images/benjamin_pavard.png" class="card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold ">Benjamin Pavard</h5>
                             <p class="card-text">
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card text-white-50 h-100 text-center bg-black ">
-                        <img src="images/bouna_sarr.png" class=" card-img-top" alt="..." />
+                        <img src="images/bouna_sarr.png" class=" card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Bouna Sarr</h5>
                             <p class="card-text">
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 text-center bg-black text-white-50">
-                        <img src="images/dayot_upamecano.png" class=" card-img-top" alt="..." />
+                        <img src="images/dayot_upamecano.png" class=" card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Dayot Upamecano</h5>
                             <p class="card-text">
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 text-center bg-black text-white-50">
-                        <img src="images/lucas_hernandez.png" class=" card-img-top" alt="..." />
+                        <img src="images/lucas_hernandez.png" class=" card-img-top p-3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Lucas Hernandez</h5>
                             <p class="card-text">
@@ -142,15 +142,16 @@
                 </div>
                 <div class="bg-black py-5 d-flex flex-column align-items-center">
                     <h4 class="text-center mb-4">Budget</h4>
+                    <hr>
                     <div class="d-flex flex-column ps-5">
                         <div class="d-flex flex-row justify-content-between align-items-center my-3 w-75">
                             <label for="players">
                                 <h6>Per Player</h6>
                             </label>
-                            <input id="player-input" class="w-50 px py-1 text-white bg-black   -light" type="text"
+                            <input id="player-input" class="w-50 py-1 text-white bg-black border px-2 " placeholder="$000" type="text"
                                 name="" />
                         </div>
-                        <button id="player-btn" type="submit" class="btn  mb-3 w-75">
+                        <button id="player-btn" type="submit" class="btn text-light mb-3 w-75">
                             Calculate
                         </button>
                         <p>
@@ -162,17 +163,17 @@
                             <label for="manager">
                                 <h6>Manager</h6>
                             </label>
-                            <input id="manager-cost" class="w-50 px py-1 text-white bg-black   -light" type="text"
+                            <input id="manager-cost" class="w-50  py-1 text-white bg-black  border px-2" placeholder="$000" type="text"
                                 name="" />
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center my-3 w-75">
                             <label for="couch">
                                 <h6>Couch</h6>
                             </label>
-                            <input id="couch-cost" class="w-50 px py-1 text-white bg-black   -light" type="text"
+                            <input id="couch-cost" class="w-50  py-1 text-white bg-black  border px-2" placeholder="$000" type="text"
                                 name="" />
                         </div>
-                        <button id="total-btn" type="submit" class="btn  mb-3 w-75">
+                        <button id="total-btn" type="submit" class="btn text-light  mb-3 w-75">
                             Calculate
                         </button>
                         <div class="d-flex justify-content-between w-75">

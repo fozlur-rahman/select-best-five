@@ -1,3 +1,9 @@
+.header-title{
+    color: #F80412;
+    font-size: 45px;
+    font-family:monospace;
+}
+
 hr{
     width: 70%;
     background: #F80412;
@@ -11,6 +17,7 @@ hr{
     background: #f80410e1;
     border: 2px solid #F80412;
     transition: .5s;
+    font-size: 16px!important;
     
 }
 .btn:hover{
