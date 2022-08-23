@@ -1,0 +1,20 @@
+hr{
+    width: 70%;
+    background: #F80412;
+    color: #F80412;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+}
+.btn {
+    border: 0;
+    background: #f80410e1;
+    border: 2px solid #F80412;
+    transition: .5s;
+    
+}
+.btn:hover{
+    border: 2px solid #F80412;
+    color: #F80412!important;
+    transition: .5s;
+}
