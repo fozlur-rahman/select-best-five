@@ -9,6 +9,8 @@ function displayPlayers(addPlayers) {
         playersList.appendChild(li);
 
     }
+    // const playerQuant = addPlayers.length;
+
 }
 // document.querySelector().addEventListener('click', function () {
 //     const addbtn = document.getElementById('add-btn');
